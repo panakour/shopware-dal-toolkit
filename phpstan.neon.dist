@@ -1,0 +1,7 @@
+parameters:
+    level: max
+    paths:
+        - src
+
+    ignoreErrors:
+        - '#should return .+ but returns Shopware\\Core\\Framework\\DataAbstractionLayer\\Entity\|null#'

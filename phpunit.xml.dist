@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         colors="true"
+         bootstrap="tests/TestBootstrap.php">
+    <testsuites>
+        <testsuite name="default">
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+    <source>
+        <include>
+            <directory suffix=".php">./src</directory>
+        </include>
+    </source>
+
+    <coverage cacheDirectory=".phpunit.cache/code-coverage">
+        <report>
+            <clover outputFile="clover.xml"/>
+        </report>
+    </coverage>
+
+    <php>
+        <ini name="error_reporting" value="-1"/>
+        <server name="KERNEL_CLASS" value="Shopware\Core\Kernel"/>
+        <server name="DATABASE_URL" value="mysql://root:root@127.0.0.1/shopware-dal-toolkit-test"/>
+        <env name="APP_ENV" value="test"/>
+        <env name="APP_DEBUG" value="1"/>
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="weak"/>
+    </php>
+</phpunit>
