@@ -95,6 +95,9 @@ foreach ($results as $ref) {
 - PHP 8.3+
 - Shopware 6.6+
 
+
+### For contribution
+
 🧹 Keep a modern codebase with **Pint**:
 
 ```bash
