@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1740564302">
-  <project timestamp="1740564302">
+<coverage generated="1740564490">
+  <project timestamp="1740564490">
     <package name="Panakour\ShopwareDALToolkit">
       <file name="/home/runner/work/shopware-dal-toolkit/shopware-dal-toolkit/src/Dal.php">
         <class name="Panakour\ShopwareDALToolkit\Dal" namespace="Panakour\ShopwareDALToolkit">
@@ -163,7 +163,7 @@
       </file>
       <file name="/home/runner/work/shopware-dal-toolkit/shopware-dal-toolkit/src/MediaServiceHelper.php">
         <class name="Panakour\ShopwareDALToolkit\MediaServiceHelper" namespace="Panakour\ShopwareDALToolkit">
-          <metrics complexity="35" methods="9" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="136" coveredstatements="128" elements="145" coveredelements="133"/>
+          <metrics complexity="35" methods="9" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="137" coveredstatements="129" elements="146" coveredelements="134"/>
         </class>
         <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
         <line num="34" type="stmt" count="2"/>
@@ -235,17 +235,16 @@
         <line num="150" type="stmt" count="10"/>
         <line num="151" type="stmt" count="6"/>
         <line num="154" type="stmt" count="10"/>
-        <line num="155" type="stmt" count="10"/>
-        <line num="156" type="stmt" count="7"/>
-        <line num="159" type="stmt" count="5"/>
-        <line num="162" type="method" name="getMediaFolderId" visibility="private" complexity="2" crap="2" count="1"/>
-        <line num="164" type="stmt" count="1"/>
-        <line num="165" type="stmt" count="1"/>
+        <line num="156" type="stmt" count="10"/>
+        <line num="157" type="stmt" count="10"/>
+        <line num="158" type="stmt" count="7"/>
+        <line num="161" type="stmt" count="5"/>
+        <line num="164" type="method" name="getMediaFolderId" visibility="private" complexity="2" crap="2" count="1"/>
         <line num="166" type="stmt" count="1"/>
+        <line num="167" type="stmt" count="1"/>
         <line num="168" type="stmt" count="1"/>
-        <line num="169" type="stmt" count="0"/>
-        <line num="171" type="stmt" count="1"/>
-        <line num="172" type="stmt" count="1"/>
+        <line num="170" type="stmt" count="1"/>
+        <line num="171" type="stmt" count="0"/>
         <line num="173" type="stmt" count="1"/>
         <line num="174" type="stmt" count="1"/>
         <line num="175" type="stmt" count="1"/>
@@ -259,25 +258,25 @@
         <line num="183" type="stmt" count="1"/>
         <line num="184" type="stmt" count="1"/>
         <line num="185" type="stmt" count="1"/>
+        <line num="186" type="stmt" count="1"/>
         <line num="187" type="stmt" count="1"/>
-        <line num="193" type="method" name="getMediaThumbnailSizes" visibility="private" complexity="3" crap="3.09" count="1"/>
-        <line num="195" type="stmt" count="1"/>
-        <line num="196" type="stmt" count="1"/>
+        <line num="189" type="stmt" count="1"/>
+        <line num="195" type="method" name="getMediaThumbnailSizes" visibility="private" complexity="3" crap="3.09" count="1"/>
         <line num="197" type="stmt" count="1"/>
+        <line num="198" type="stmt" count="1"/>
         <line num="199" type="stmt" count="1"/>
-        <line num="200" type="stmt" count="1"/>
         <line num="201" type="stmt" count="1"/>
         <line num="202" type="stmt" count="1"/>
         <line num="203" type="stmt" count="1"/>
+        <line num="204" type="stmt" count="1"/>
         <line num="205" type="stmt" count="1"/>
         <line num="207" type="stmt" count="1"/>
-        <line num="208" type="stmt" count="0"/>
-        <line num="209" type="stmt" count="0"/>
+        <line num="209" type="stmt" count="1"/>
         <line num="210" type="stmt" count="0"/>
-        <line num="214" type="stmt" count="1"/>
-        <line num="217" type="method" name="getExtensionFromMimeType" visibility="private" complexity="2" crap="2" count="8"/>
-        <line num="219" type="stmt" count="8"/>
-        <line num="220" type="stmt" count="8"/>
+        <line num="211" type="stmt" count="0"/>
+        <line num="212" type="stmt" count="0"/>
+        <line num="216" type="stmt" count="1"/>
+        <line num="219" type="method" name="getExtensionFromMimeType" visibility="private" complexity="2" crap="2" count="8"/>
         <line num="221" type="stmt" count="8"/>
         <line num="222" type="stmt" count="8"/>
         <line num="223" type="stmt" count="8"/>
@@ -307,12 +306,14 @@
         <line num="247" type="stmt" count="8"/>
         <line num="248" type="stmt" count="8"/>
         <line num="249" type="stmt" count="8"/>
+        <line num="250" type="stmt" count="8"/>
         <line num="251" type="stmt" count="8"/>
-        <line num="252" type="stmt" count="7"/>
-        <line num="255" type="stmt" count="1"/>
-        <metrics loc="258" ncloc="240" classes="1" methods="9" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="136" coveredstatements="128" elements="145" coveredelements="133"/>
+        <line num="253" type="stmt" count="8"/>
+        <line num="254" type="stmt" count="7"/>
+        <line num="257" type="stmt" count="1"/>
+        <metrics loc="260" ncloc="242" classes="1" methods="9" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="137" coveredstatements="129" elements="146" coveredelements="134"/>
       </file>
     </package>
-    <metrics files="3" loc="607" ncloc="557" classes="3" methods="34" coveredmethods="29" conditionals="0" coveredconditionals="0" statements="258" coveredstatements="247" elements="292" coveredelements="276"/>
+    <metrics files="3" loc="609" ncloc="559" classes="3" methods="34" coveredmethods="29" conditionals="0" coveredconditionals="0" statements="259" coveredstatements="248" elements="293" coveredelements="277"/>
   </project>
 </coverage>
