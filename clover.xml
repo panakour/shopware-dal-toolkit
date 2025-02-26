@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1737448400">
-  <project timestamp="1737448400">
+<coverage generated="1740564302">
+  <project timestamp="1740564302">
     <package name="Panakour\ShopwareDALToolkit">
       <file name="/home/runner/work/shopware-dal-toolkit/shopware-dal-toolkit/src/Dal.php">
         <class name="Panakour\ShopwareDALToolkit\Dal" namespace="Panakour\ShopwareDALToolkit">
