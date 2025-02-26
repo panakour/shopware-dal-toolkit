@@ -151,12 +151,14 @@ final readonly class MediaServiceHelper
             $string = preg_replace('/^data:image\/\w+;base64,/', '', $string);
         }
 
-        $decoded = base64_decode((string) $string, true);
+        $string = trim((string) $string);
+
+        $decoded = base64_decode($string, true);
         if ($decoded === false) {
             return false;
         }
 
-        return base64_encode($decoded) === $string;
+        return $decoded !== '';
     }
 
     private function getMediaFolderId(Context $context): string
