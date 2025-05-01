@@ -18,7 +18,7 @@
         "ext-gd": "*",
         "laravel/pint": "^1.18.1",
         "phpstan/phpstan": "^2.1.1",
-        "phpunit/phpunit": "^11.5",
+        "phpunit/phpunit": "^12.1",
         "rector/rector": "^2.0"
     },
     "autoload": {
